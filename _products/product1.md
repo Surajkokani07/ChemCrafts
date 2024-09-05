@@ -1,6 +1,6 @@
 ---
 title: "3D Model of a Car"
-image: "/images/car.jpg"
+image: "shaded.png"
 price: 29.99
 category: vehicles
 layout: product
