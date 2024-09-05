@@ -3,22 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+    <title>3D Models for Sale</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Site Logo" id="logo">
-        <h1>Welcome to My Simple Website!</h1>
+        <h1>3D Models for Sale</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <p>This is a basic website example.</p>
-        <button id="clickMeButton">Click Me!</button>
-        <img src="images/background.jpg" alt="Background Image" id="background">
+        <section id="products">
+            <div class="product-box">
+                <div class="product-box-inner">
+                    <div class="product-front">
+                        <img src="model1-front.jpg" alt="3D Model 1">
+                        <h3>Model Name 1</h3>
+                        <p>Price: $100</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                    <div class="product-back">
+                        <img src="model1-back.jpg" alt="3D Model 1 - Back">
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-box-inner">
+                    <div class="product-front">
+                        <img src="model2-front.jpg" alt="3D Model 2">
+                        <h3>Model Name 2</h3>
+                        <p>Price: $150</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                    <div class="product-back">
+                        <img src="model2-back.jpg" alt="3D Model 2 - Back">
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product-box-inner">
+                    <div class="product-front">
+                        <img src="model3-front.jpg" alt="3D Model 3">
+                        <h3>Model Name 3</h3>
+                        <p>Price: $200</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                    <div class="product-back">
+                        <img src="model3-back.jpg" alt="3D Model 3 - Back">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- Modal Structure -->
+    <div id="buyModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Confirm Purchase</h2>
+            <p>Are you sure you want to buy this 3D model?</p>
+            <form>
+                <button type="submit" class="confirm-btn">Confirm Purchase</button>
+            </form>
+        </div>
+    </div>
+
     <footer>
-        <p>&copy; 2024 My Simple Website</p>
+        <p>© 2024 3D Models for Sale</p>
     </footer>
     <script src="script.js"></script>
 </body>
 </html>
+
