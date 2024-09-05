@@ -1,0 +1,6 @@
+- name: Vehicles
+  slug: vehicles
+- name: Electronics
+  slug: electronics
+- name: Furniture
+  slug: furniture
