@@ -22,13 +22,13 @@
             <div class="product-box">
                 <div class="product-box-inner">
                     <div class="product-front">
-                        <img src="model1-front.jpg" alt="3D Model 1">
+                        <img src="shaded.png" alt="Shperical storage tank Shaded Design">
                         <h3>Model Name 1</h3>
                         <p>Price: $100</p>
                         <button class="buy-btn">Buy Now</button>
                     </div>
                     <div class="product-back">
-                        <img src="model1-back.jpg" alt="3D Model 1 - Back">
+                        <img src="bottom.png" alt="Shperical storage- Bottom Design">
                     </div>
                 </div>
             </div>
@@ -36,13 +36,13 @@
             <div class="product-box">
                 <div class="product-box-inner">
                     <div class="product-front">
-                        <img src="model2-front.jpg" alt="3D Model 2">
+                        <img src="top.png" alt="3D Model 2">
                         <h3>Model Name 2</h3>
                         <p>Price: $150</p>
                         <button class="buy-btn">Buy Now</button>
                     </div>
                     <div class="product-back">
-                        <img src="model2-back.jpg" alt="3D Model 2 - Back">
+                        <img src="wired.png" alt="3D Model 2 - Back">
                     </div>
                 </div>
             </div>
@@ -50,13 +50,13 @@
             <div class="product-box">
                 <div class="product-box-inner">
                     <div class="product-front">
-                        <img src="model3-front.jpg" alt="3D Model 3">
+                        <img src="logo.png" alt="3D Model 3">
                         <h3>Model Name 3</h3>
                         <p>Price: $200</p>
                         <button class="buy-btn">Buy Now</button>
                     </div>
                     <div class="product-back">
-                        <img src="model3-back.jpg" alt="3D Model 3 - Back">
+                        <img src="background.png" alt="3D Model 3 - Back">
                     </div>
                 </div>
             </div>
