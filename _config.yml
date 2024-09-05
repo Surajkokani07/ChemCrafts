@@ -1,0 +1,10 @@
+title: Hum3D Clone
+description: A website for selling 3D models
+baseurl: "" url: "http://yourdomain.com"
+theme: minima
+collections:
+    products:
+     output: true
+permalink: /:categories/:title/
+paginate: 10
+paginate_path: "/page:num/"
